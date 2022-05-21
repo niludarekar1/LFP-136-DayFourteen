@@ -23,10 +23,10 @@ public class StackQueue {
                     linkedList.insertFirst(dataFirst);
                     break;
                 case 2:
+                    linkedList.peakPop();
                     break;
                 case 3:
                     linkedList.showLinkedList();
-                    break;
                 case 4:
                     break;
                 case 5:
