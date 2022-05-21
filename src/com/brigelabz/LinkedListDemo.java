@@ -77,7 +77,6 @@ class LinkedList {
         }
     }
 
-
     //Method for Peak Pop in Stack
     public void peakPop() {
         if(head == null) {
@@ -90,6 +89,7 @@ class LinkedList {
             head = null;
         }
     }
+
     //Method to Delete Last Node from Linked List
     public void popLast() {
         if(head == null) {
